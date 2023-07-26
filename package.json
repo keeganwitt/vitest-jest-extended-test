@@ -1,0 +1,23 @@
+{
+  "name": "vitest-jest-extended-test",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "jest-extended": "^3.0.0",
+    "typescript": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test:ui"
+  }
+}
