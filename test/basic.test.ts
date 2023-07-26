@@ -1,6 +1,6 @@
 /// <reference types="vitest" />
 
-import { expect, test, vi } from 'vitest'
+import { expect, test, vi } from 'vitest';
 
 test('toHaveBeenCalledAfter', () => {
   const mock1 = vi.fn();
