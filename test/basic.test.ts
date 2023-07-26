@@ -1,5 +1,3 @@
-/// <reference types="vitest" />
-
 import { expect, test, vi } from 'vitest';
 
 test('toHaveBeenCalledAfter', () => {
